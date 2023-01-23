@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    region: 
+      static: us-east-1
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIASHWMIVRACJ477LO7
+      secret-key: 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
+logging:
+  level:
+    '[com.amazonaws.internal]': error
+    '[com.amazonaws.util.EC2MetadataUtils]': error
+   
